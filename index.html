@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Md Habib Studio</title>
+<meta name="description" content="Md Habib Studio makes Android games. Village Block Blast is a relaxing block puzzle with Bengali folk art themes.">
+<style>
+  :root {
+    --bg: #fbf3e4;
+    --card: #ffffff;
+    --ink: #2b1d16;
+    --muted: #6b5a4e;
+    --accent: #8c3b2b;
+    --accent-dark: #6d2c20;
+    --line: #e6d7bf;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--accent);
+    color: #fff;
+    padding: 56px 20px 48px;
+    text-align: center;
+    border-bottom: 6px double #e8c27a;
+  }
+  header h1 { font-size: 2.2rem; letter-spacing: 0.5px; }
+  header p { margin-top: 10px; opacity: 0.92; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 20px 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 28px 24px;
+    margin-bottom: 24px;
+  }
+  .card h2 { color: var(--accent); margin-bottom: 8px; font-size: 1.6rem; }
+  .tag { color: var(--muted); margin-bottom: 14px; }
+  .features { margin: 14px 0 20px 20px; }
+  .features li { margin-bottom: 6px; }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 4px 8px 4px 0;
+  }
+  .btn:hover { background: var(--accent-dark); }
+  .btn.alt { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+  .btn.alt:hover { background: #f4e6df; }
+  .about p { color: var(--muted); }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding: 12px 20px 40px;
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 480px) {
+    header h1 { font-size: 1.7rem; }
+    .btn { display: block; text-align: center; margin-right: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Md Habib Studio</h1>
+  <p>Android games from Bangladesh</p>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Village Block Blast</h2>
+    <p class="tag">A relaxing block puzzle game with Bengali folk art themes.</p>
+    <p>Drag and drop colorful block shapes onto an 8x8 grid. Complete full rows or columns to clear them and score points. The look of the game draws on Bengali folk art such as nakshi kantha, rickshaw painting and pottery patterns.</p>
+    <ul class="features">
+      <li>Simple 8x8 block puzzle gameplay</li>
+      <li>Combos and score milestones</li>
+      <li>Built-in tutorial for new players</li>
+      <li>Free to play with ads</li>
+    </ul>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.mdhabib.villageblockblast">Get it on Google Play</a>
+    <a class="btn alt" href="https://habib4433.github.io/village-block-blast/privacy-policy.html">Privacy Policy</a>
+  </section>
+
+  <section class="card about">
+    <h2>About</h2>
+    <p>Md Habib Studio is a solo developer studio based in Bangladesh. It builds Android games and web applications.</p>
+    <p style="margin-top:12px;"><a class="btn alt" href="https://github.com/Habib4433">GitHub</a></p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 Md Habib Studio &middot;
+  <a href="https://habib4433.github.io/village-block-blast/privacy-policy.html">Privacy Policy</a>
+</footer>
+
+</body>
+</html>
